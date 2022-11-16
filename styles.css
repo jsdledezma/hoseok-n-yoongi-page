@@ -96,21 +96,24 @@ footer {
 .title-info-wrap {
 
     display: flex;
+    flex: 0 1 auto;
 
 }
 
 .title-wrap {
 
+    margin: auto;
     display: flex;
-    flex: 1 1 0;
-    border-right: 4px solid white;
+    flex: 1 0 auto;
+    border-right: 2px solid white;
     padding-right: 8px;
 
 }
 
 .info-wrap {
 
-    padding: 16px 8px;
+    margin: auto;
+    margin-left: 8px;
     font-family: 'Montserrat';
     font-size: medium;
     font-weight: light;
