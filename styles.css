@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');@import url('https://fonts.googleapis.com/css?family=League+Spartan&display=swap');
+
+/* Estilo de proporcionamiento */
+
+body {
+
+    min-height: 100vh;
+    margin: 0;
+}
+
+body, .body {
+
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+
+}
+
+.content {
+
+    flex: 1 1 auto;
+
+    
+}
+
+@media (min-width: 768px) {
+
+    .body {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        flex: 0 0 260px;
+    }
+}
+
+header {
+
+    margin: 0;
+    padding: 4vh 4vh 3vh;
+    display: flex;
+}
+
+/* Estilo visual */
+
+body {
+
+    font-family: 'Montserrat';
+    color: white;
+
+}
+ 
+.body {
+
+    background-image: url('placeholderbg.jpg');
+    background-size: 100%;
+    background-attachment: fixed;
+
+}
+
+header {
+
+    background-color: #009baf;
+
+    font-family: 'League Spartan';
+    font-size: 250%;
+}
+
+.content {
+
+    background-color: #dc0e7b;
+    margin: 8vh;
+    padding: 8vh;
+}
+
+.sidebar {
+
+    background-color: #dc0e7b;
+    padding: 4vh;
+
+}
+
+footer {
+
+    background-color: #009baf;
+    padding: 2vh;
+
+}
+
+.logo {
+
+    padding: 10px 8px;
+    height: 32px;
+}
+
+.title-info-wrap {
+
+    display: flex;
+
+}
+
+.title-wrap {
+
+    display: flex;
+    flex: 1 1 0;
+    border-right: 4px solid white;
+    padding-right: 8px;
+
+}
+
+.info-wrap {
+
+    padding: 16px 8px;
+    font-family: 'Montserrat';
+    font-size: medium;
+    font-weight: light;
+    
+}
