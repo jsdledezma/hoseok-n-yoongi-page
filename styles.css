@@ -6,6 +6,7 @@ body {
 
     min-height: 100vh;
     margin: 0;
+
 }
 
 body, .body {
@@ -52,7 +53,7 @@ body {
  
 .body {
 
-    background-image: url('placeholderbg.jpg');
+    background-image: url('bg.jpg');
     background-size: 100%;
     background-attachment: fixed;
 
@@ -88,9 +89,10 @@ footer {
 }
 
 .logo {
+
     height: 4vh;
-    margin-right: 10px;
     margin-left: 4px;
+    
 }
 
 .title-info-wrap {
@@ -108,6 +110,7 @@ footer {
     border-right: 2px solid white;
     padding-right: 8px;
     align-items: center;
+
 }
 
 .info-wrap {
@@ -116,5 +119,34 @@ footer {
     font-family: 'Montserrat';
     font-size: medium;
     font-weight: light;
+
+}
+
+.content-image {
+
+    width: 48vh;
+    float: left;
+    margin: 0 1vh 1vh 0;
+
+}
+
+.content-text, .sidebar-text {
+
+    text-align: justify;
+
+}
+
+.sidebar-image {
+
+    width: 16vh;
+
+}
+
+.sidebar-element-wrap {
+
+    display: flex;
+    flex: 1 1 0;
+    flex-direction: column;
+    align-items: center;
 
 }
