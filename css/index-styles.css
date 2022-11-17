@@ -35,8 +35,7 @@ body {
 
 }
 
-
-.left-link-wrap {
+.link-wrap {
 
     border: 8px solid white;
     border-radius: 64px;
@@ -44,14 +43,14 @@ body {
 
 }
 
-.left-link-wrap:hover {
+.link-wrap:hover {
 
     background: white;
     transition: 0.35s;
+
 }
 
-
-a:hover {
+.hoseok-link:hover {
 
     background: linear-gradient(to bottom right, #dc0e7b, #009baf);
     -webkit-background-clip: text;
@@ -60,9 +59,11 @@ a:hover {
     
 }
 
-a:link, a:visited, a:hover, a:active {
-   
-    color: white;
-    text-decoration: none;
+.yoongi-link:hover {
+
+    background: linear-gradient(to bottom right, #1a1a1a, #757575);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.35s;
 
 }

@@ -10,7 +10,7 @@ body {
  
 .body {
 
-    background-image: url("hoseok-bg.jpg");
+    background-image: url("yoongi-bg.jpg");
     background-size: 100%;
     background-attachment: fixed;
 
@@ -25,7 +25,7 @@ header {
     padding: 4vh 4vh 3vh;
     display: flex;
 
-    background-color: #009baf;
+    background-color: #1a1a1a;
     
     font-family: 'League Spartan';
     font-size: 4vh;
@@ -33,7 +33,7 @@ header {
 
 .content {
 
-    background-color: #dc0e7b;
+    background-color: #757575;
     margin: 8vh;
     padding: 32px;
     
@@ -41,14 +41,14 @@ header {
 
 .sidebar {
 
-    background-color: #dc0e7b;
+    background-color: #757575;
     padding: 4vh;
 
 }
 
 footer {
 
-    background-color: #009baf;
+    background-color: #1a1a1a;
     padding: 2vh;
 
 }
@@ -57,8 +57,9 @@ footer {
 
 .logo {
 
-    height: 4vh;
+    height: 3.5vh;
     margin-left: 4px;
+    margin-bottom: 0.5vh;
     
 }
 

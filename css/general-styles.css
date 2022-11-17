@@ -35,3 +35,16 @@ body, .body {
     }
 }
 
+a:link, a:visited, a:hover, a:active {
+   
+    color: white;
+    text-decoration: none;
+
+}
+
+.house-icon {
+
+    width: 6vh;
+    fill: white;
+
+}
