@@ -1,0 +1,68 @@
+body {
+
+    font-family: 'Montserrat';
+    color: white;
+
+}
+
+.content-wrap {
+
+    font-family: 'League Spartan';
+    font-size: 8em;
+    font-weight: 900;
+    min-height: 100vh;
+    display: flex;
+
+}
+
+.left-block {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    background-image: linear-gradient(to bottom right, #dc0e7b, #009baf);
+
+}
+
+.right-block {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 50vw;
+    background-image: linear-gradient(to bottom right, #1a1a1a, #757575);
+
+}
+
+
+.left-link-wrap {
+
+    border: 8px solid white;
+    border-radius: 64px;
+    padding: 16px 32px 8px;
+
+}
+
+.left-link-wrap:hover {
+
+    background: white;
+    transition: 0.35s;
+}
+
+
+a:hover {
+
+    background: linear-gradient(to bottom right, #dc0e7b, #009baf);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.35s;
+    
+}
+
+a:link, a:visited, a:hover, a:active {
+   
+    color: white;
+    text-decoration: none;
+
+}

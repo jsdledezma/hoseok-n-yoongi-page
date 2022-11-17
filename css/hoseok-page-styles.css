@@ -1,48 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');@import url('https://fonts.googleapis.com/css?family=League+Spartan&display=swap');
 
-/* Estilo de proporcionamiento */
-
-body {
-
-    min-height: 100vh;
-    margin: 0;
-
-}
-
-body, .body {
-
-    display: flex;
-    flex: 1 1 auto;
-    flex-direction: column;
-
-}
-
-.content {
-
-    flex: 1 1 auto;
-
-    
-}
-
-@media (min-width: 768px) {
-
-    .body {
-        flex-direction: row;
-    }
-
-    .sidebar {
-        flex: 0 0 260px;
-    }
-}
-
-header {
-
-    margin: 0;
-    padding: 4vh 4vh 3vh;
-    display: flex;
-}
-
-/* Estilo visual */
+/* Estilo visual de la estructura */
 
 body {
 
@@ -53,13 +10,17 @@ body {
  
 .body {
 
-    background-image: url('bg.jpg');
+    background-image: url("bg.jpg");
     background-size: 100%;
     background-attachment: fixed;
 
 }
 
 header {
+
+    margin: 0;
+    padding: 4vh 4vh 3vh;
+    display: flex;
 
     background-color: #009baf;
     
@@ -72,6 +33,7 @@ header {
     background-color: #dc0e7b;
     margin: 8vh;
     padding: 32px;
+    
 }
 
 .sidebar {
@@ -87,6 +49,8 @@ footer {
     padding: 2vh;
 
 }
+
+/* Estilo visual de elementos */
 
 .logo {
 

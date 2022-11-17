@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=League+Spartan&display=swap');
+
+/* Estilo de proporcionamiento */
+
+body {
+
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+body, .body {
+
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+
+}
+
+.content {
+
+    flex: 1 1 auto;
+
+}
+
+@media (min-width: 768px) {
+
+    .body {
+        flex-direction: row;
+    }
+
+    .sidebar {
+        flex: 0 0 260px;
+    }
+}
+
