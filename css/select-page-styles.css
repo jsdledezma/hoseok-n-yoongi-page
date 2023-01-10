@@ -21,7 +21,7 @@ body {
     align-items: center;
     justify-content: center;
     min-width: 50vw;
-    background-image: linear-gradient(to bottom right, #dc0e7b, #009baf);
+    background-image: linear-gradient(to bottom right,#c999af, #119bad);
 
 }
 
@@ -52,7 +52,7 @@ body {
 
 .hoseok-link:hover {
 
-    background: linear-gradient(to bottom right, #dc0e7b, #009baf);
+    background: linear-gradient(to bottom right, #c999af, #119bad);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: 0.35s;

@@ -25,7 +25,7 @@ header {
     padding: 4vh 4vh 3vh;
     display: flex;
 
-    background-color: #009baf;
+    background-color: #119bad;
     
     font-family: 'League Spartan';
     font-size: 4vh;
@@ -33,7 +33,7 @@ header {
 
 .content {
 
-    background-color: #dc0e7b;
+    background-color: #8f7193;
     margin: 8vh;
     padding: 32px;
     
@@ -41,14 +41,14 @@ header {
 
 .sidebar {
 
-    background-color: #dc0e7b;
+    background-color: #8f7193;
     padding: 4vh;
 
 }
 
 footer {
 
-    background-color: #009baf;
+    background-color: #119bad;
     padding: 2vh;
 
 }
@@ -105,7 +105,7 @@ footer {
 
 .sidebar-image {
 
-    width: 16vh;
+    width: 24vh;
 
 }
 

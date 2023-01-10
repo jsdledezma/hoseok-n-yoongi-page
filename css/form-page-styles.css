@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  height: 63px;
+  background: #171717;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+.header{
+    height: 60vh;
+    background: linear-gradient(to bottom right, #c999af, #119bad);
+    background-size: cover;
+}
